@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+/*First sections where you will land*/
+.main {
+  background: url(./campus-banner.jpg), no-repeat;
+  background-size: cover;
+}
+.main-bg {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  align-items: center;
+  justify-content: center;
+}
+
+.names {
+  text-shadow: rgb(143, 13, 143) 5px 5px 2px;
+  position: relative;
+  bottom: 80px;
+  cursor: default;
+}
+
+h3 {
+  display: block;
+}
+
+.names h3 {
+  font-size: 2rem;
+  color: rgb(245, 245, 245);
+  text-align: center;
+}
+
+h1 {
+  display: block;
+  font-weight: bold;
+}
+
+.names h1 {
+  font-size: 5rem;
+  color: rgb(237, 233, 233);
+  text-align: center;
+}
+
+p {
+  display: block;
+}
+
+.names p {
+  font-size: 1.7rem;
+  color: whitesmoke;
+  text-align: center;
+}
+
+
+/*Navbar*/
+.navbar {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+}
+nav {
+  width: 100%;
+  height: 80px;
+  line-height: 50px;
+  transition: 0.6s;
+}
+nav ul {
+  float: right;
+  margin-right: 30%;
+  margin-top: 1%;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 30px;
+  transition: 0.3s all;
+}
+
+nav ul li a:hover {
+    color: #e3b9f8;
+}
+
+#nav.sticky {
+    background-color: #d178c8;
+    transition: 0.6s;
+}
+
+#nav.sticky ul li a:hover{
+    color: #7F56DE;
+    transition: 0.6s;
+}
+
+#munlogo {
+  width: 7%;
+  margin-top: -1%;
+  float: left;
+  margin-left: 3%;
+}
+
+
+/*MUN Intro*/
+.munintro{
+  background-color: #AE50A478;
+  font-family: 'Poppins', sans-serif;
+}
+
+.munintro h2{
+  display: block;
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.munintro p{
+  display: block;
+  font-size: 1.3rem;
+  color: black;
+  text-align: center;
+  padding-top: 2%;
+  margin-inline-start: 15%;
+  margin-inline-end: 15%;
+  padding-bottom: 5%;
+}
+
+
+/*About VITCMUN*/
+.vitmunintro {
+  background-color: #B7A3E6;
+  font-family: 'Poppins', sans-serif;
+}
+
+.vitmunintro h2{
+  display: block;
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.vitmunintro p{
+  display: block;
+  font-size: 1.3rem;
+  color: black;
+  text-align: center;
+  padding-top: 2%;
+  margin-inline-start: 15%;
+  margin-inline-end: 15%;
+  padding-bottom: 5%;
+}
