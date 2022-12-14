@@ -99,7 +99,7 @@ nav ul li a:hover {
 }
 
 #nav.sticky {
-    background-color: #d178c8;
+  background-color: #d178c8;
     transition: 0.6s;
 }
 
