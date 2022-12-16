@@ -174,7 +174,7 @@ nav ul li a:hover {
 .munintro {
   background-color: #ae50a478;
   font-family: "Poppins", sans-serif;
-  height: 100vh;
+  height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -208,7 +208,7 @@ nav ul li a:hover {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  height: 600px;
 }
 
 .vitmunintro h2 {
@@ -216,7 +216,6 @@ nav ul li a:hover {
   font-size: 2rem;
   color: black;
   text-align: center;
-  padding-top: 5%;
 }
 
 .vitmunintro p {
