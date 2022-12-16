@@ -3,7 +3,7 @@ $(document).ready(function () {
         var scroll = $(window).scrollTop();
         console.log(scroll);
         if (scroll > 600) {
-            $(".navbar").css("background", "white");
+            $(".navbar").css("background", "#AC4D9F");
             $(".nav-a").css("color", "black");
         }
 
