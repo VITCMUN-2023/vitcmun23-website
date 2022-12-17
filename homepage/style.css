@@ -331,9 +331,17 @@ nav ul li a:hover {
 .contact p,
 .location p,
 .mail p {
-  margin: 30px;
+  margin: 10px 25px ;
   color: white;
 }
+
+.contact ,
+.location ,
+.mail  {
+  margin: 8px ;
+  
+}
+
 
 #Hi {
   text-decoration: underline;
@@ -410,9 +418,6 @@ i {
   transition: all 0.2s ease-in-out;
 }
 
-
-
-
 .control {
   display: inline-flex;
   flex-direction: row;
@@ -447,6 +452,7 @@ i {
 .bottom-text p {
   font-size: 15px;
   margin: 10px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .gap {
@@ -460,6 +466,11 @@ i {
   font-weight: 400;
   /* font-weight: regular; */
   font-size: 17px;
+}
+
+.Heading{
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
 }
 
 
