@@ -43,7 +43,7 @@
   font-weight: 500;
   position: relative;
   cursor: default;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
 }
 .names h3 {
   text-shadow: rgb(143, 13, 143) 3px 3px 2px;
@@ -163,6 +163,7 @@ nav ul li a:hover {
   color: #7f56de;
   transition: all 0.6s;
 }  */
+
 #munlogo {
   width: 7%;
   margin-top: -1%;
@@ -240,77 +241,69 @@ nav ul li a:hover {
 
 .letter-container {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100%;
   /* background: red; */
   /* background: rgba(183, 163, 230, 0.47); */
 }
 
-
 .letter-wrappper {
-  height: 80%;
-  width: 80%;
   /* border: 1px solid black; */
   /* background: rgba(183, 163, 230, 0.47); */
   display: flex;
-  gap: 30px;
   align-items: flex-start;
   justify-content: center;
   font-family: "Poppins", sans-serif;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .pic img {
-  width: 500px;
-  height: 700px;
+  width: 80%;
+  height: 40%;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 40px 50px;
 }
 
 .text-letter {
   display: flex;
-  flex-direction: column;
-  font-size: 15px;
   justify-content: flex-start;
-  width: 50%;
-  height: 100%;
 }
 
 .subtext {
-  margin: 8px;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
 }
 
+.subtext h1 {
+  text-align: start;
+  font-size: 1.7rem;
+}
 .subtext p {
   color: black;
-  margin-left: 3px;
-  margin-top: 3px;
-}
-
-.subtext h1{
-  margin: 25px 0;
+  text-align: justify;
+  margin-top: 5%;
+  font-size: 1.3rem;
 }
 
 /* Footer */
 footer {
   background-color: rgba(128, 60, 120, 0.8);
 }
+
 .footer-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: flex-start;
   gap: 120px;
-  height: 500px;
 }
 
 .left {
   width: 50%;
   height: 50%;
-  margin-left: 80px;
+  margin-left: 12%;
 }
 
 .right {
@@ -322,23 +315,22 @@ footer {
   display: flex;
   flex-direction: column;
   /* margin: 30px 0px 0px 15px; */
+  margin-bottom: 10%;
 }
 
 .contact p,
 .location p,
 .mail p {
   flex-direction: row;
-  margin-left: 2% ;
+  margin-left: 2%;
   color: white;
 }
 
-.contact ,
-.location ,
-.mail  {
-  margin: 8px ;
-
+.contact,
+.location,
+.mail {
+  margin: 8px;
 }
-
 
 #Hi {
   text-decoration: underline;
@@ -353,7 +345,7 @@ footer {
   display: inline-block;
   /* color: rgba(67, 22, 62, 0.8); */
   color: white;
-  font-size: 30px;
+  font-size: 20%;
   font-weight: bold;
 }
 
@@ -378,7 +370,6 @@ footer {
   /* background: rgba(128, 60, 120, 0.8); */
   height: 6px;
   left: 55%;
-
   border-radius: 5px;
 }
 
@@ -395,10 +386,7 @@ footer {
   justify-content: center;
   align-items: center;
   margin-left: 78px;
-
 }
-
-
 
 i {
   font-size: 112px;
@@ -416,7 +404,7 @@ i {
 }
 
 .control {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
 }
 
@@ -449,7 +437,7 @@ i {
 .bottom-text p {
   font-size: 15px;
   margin: 10px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .gap {
@@ -459,18 +447,79 @@ i {
 .mail,
 .contact,
 .location {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   /* font-weight: regular; */
-  font-size: 17px;
+  font-size: 80%;
 }
 
-.Heading{
-  font-family: 'Poppins', sans-serif;
+.Heading {
+  font-family: "Poppins", sans-serif;
   font-size: 25px;
 }
 
+@media only screen and (max-width: 690px) {
+  .munintro h2 {
+    font-size: 1.5rem;
+  }
 
+  .munintro p {
+    font-size: 1rem;
+  }
 
+  .vitmunintro h2 {
+    font-size: 1.5rem;
+  }
 
-@media only screen and (max-width: 1050px) {}
+  .vitmunintro p {
+    font-size: 1rem;
+  }
+
+  .footer-wrapper {
+    align-items: center;
+    flex-direction: column;
+    gap: 00px;
+  }
+
+  .footer-wrapper .right{
+    margin-top: -10%;
+  }
+  
+  .right .contact{
+    margin-top: -5%; 
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .letter-wrappper {
+    flex-direction: column;
+  }
+  .subtext h1 {
+    font-size: 1.2rem;
+  }
+  .subtext p {
+    font-size: 1rem;
+  }
+  .pic img {
+    align-items: center;
+    width: 80%;
+    height: 500%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .munintro h2 {
+    font-size: 1.2rem;
+  }
+
+  .munintro p {
+    font-size: 1rem;
+  }
+
+  .vitmunintro h2 {
+    font-size: 1.2rem;
+  }
+
+  .vitmunintro p {
+    font-size: 1rem;
+  }
+}
